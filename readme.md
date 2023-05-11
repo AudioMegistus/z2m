@@ -26,3 +26,6 @@ For some reason (I don't know Python well enough to say why), the script does no
 There seem to be two major limitations:
 1. the expression pedal (if you have a G3X) does not send any MIDI info at all.
 2. the "on" messages for the footswitches are different depending on what order they are pressed. This means that it is more-or-less impossible to assign a consistent Control Change number to the footswtiches.
+
+TODO:
+I am planning an Arduino-based hack of my G3X to bring the footswtiches and expression pedal into play.
