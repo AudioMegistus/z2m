@@ -7,8 +7,9 @@ Click the green code button (top-right) and choose "download zip". Run z2m.exe i
 
 This repo is a fork of: https://github.com/carling65/z2m
 you will find original instructions there.
-
-My own experience with this script (tested in Win 10/11 only) is a little different to what is described in the original repo:
+------------------------------------------------
+<h3><b>My own experience with this script (tested in Win 10/11 only) is a little different to what is described in the original repo:</b></h3>
+------------------------------------------------
 
 Basically, just run z2m.exe and you can then select "Zoom G series" as your MIDI input and you should see sysex coming in.
 For some reason (I don't know Python well enough to say why), the script does not send Control Change to LoopMIDI Port, but you can script your own translations with Bome MIDI pro or in python, etc.
